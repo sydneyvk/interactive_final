@@ -1,0 +1,378 @@
+figcaption,
+figure,
+header,
+section,
+p{
+  display: block;
+  }
+
+  body,
+  dd,
+  dl,
+  figure {
+    margin: 0em;
+    }
+
+    /* background color and text color and text */
+    body {
+      color: #444545;
+      background: #fff;
+      padding: 2em;
+      margin: auto;
+      }
+
+      h1 {
+        color: #292862;
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 2em;
+        margin-top: 0.1em;
+      }
+
+      p{
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: .8em;
+        letter-spacing: .01em;
+        padding-right: .2em;
+        padding-left: .2em;
+      }
+
+
+      header {
+        margin-top: 0em;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-family: "Trebuchet MS", sans-serif;
+
+      }
+
+      h1.head {
+        margin-bottom: .2em;
+        font-family: "Trebuchet MS", sans-serif;
+
+      }
+
+.principle{
+  color: #fff;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.1em;
+
+}
+
+
+
+.group section div {
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.principle h4{
+  padding-bottom: .6em;
+  font-size: 1.5em;
+  border-bottom: 5px solid #fff;
+  font-family: "Trebuchet MS", sans-serif;
+
+
+}
+
+/*images  */
+img{
+  width: 100%
+}
+
+figure.squash-and-stretch {
+  margin-bottom: -2em;
+}
+
+figure.staging {
+  margin-top: 2.5em;
+}
+
+figure.follow-through{
+  margin-top: -8em;
+  margin-bottom: 0em;
+}
+
+figure.slow-in-out{
+  margin-top: -9em;
+  margin-bottom: 0em;
+}
+
+figure.arc{
+  margin-top: -6em;
+}
+
+figure.straight-ahead{
+  margin-top:0em;
+}
+
+figure.timing{
+  margin-top: -1em;
+}
+
+figure.exaggeration{
+  margin-top: -6em;
+  margin-bottom: 1em;
+}
+
+figure.solid-drawing{
+  margin-top: -3.5em;
+  margin-bottom: -5em;
+}
+figure.appeal{
+  margin-top: -5em;
+  margin-bottom: -1em;
+}
+
+
+
+
+  /* squash and stretch  */
+
+
+  #squash-and-stretch{
+  background: #e2452f;
+}
+
+
+/* ANTICIPATION  */
+
+#anticipation{
+background:  #55c7e3;
+}
+
+
+/* Staging  */
+
+#staging{
+background:  #333366;
+}
+
+/* Straignt ahead */
+
+#straight-ahead{
+  background: #e2452f;
+}
+
+/* follow-through  */
+
+#follow-through{
+background:  #55c7e3;
+}
+
+/* slow in and out  */
+
+#slow-in-out{
+background:  #333366;
+}
+
+/* ARC */
+
+#arc{
+  background: #e2452f;
+}
+
+/* Secondary Action  */
+
+#secondary-action{
+background:  #55c7e3;
+}
+
+
+/* Timing  */
+
+#timing{
+background:  #333366;
+}
+
+/* Exaggeration */
+
+#exaggeration{
+  background: #e2452f;
+}
+
+
+/* Solid Drawing  */
+
+#solid-drawing{
+background:  #55c7e3;
+}
+
+
+/* Appeal  */
+
+#appeal{
+background:  #333366;
+}
+
+
+/* NAVIGATION */
+
+nav ol{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+nav li {
+display: inline;
+font-family: "Trebuchet MS", sans-serif;
+font-size: 4em;
+margin-right: .2em;
+}
+
+nav a{
+    text-decoration: none;
+    color: #55c7e3;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+
+
+    a:hover {
+      color: #292862;
+    }
+
+
+/* hide `details` marker */
+
+  #jump-link-top {
+    text-decoration: underline;
+    padding-top:1em;
+    text-align: center;
+    clear: both;
+    background: #fff;
+    }
+.jump-link-text {
+color:#e2452f;
+}
+
+  footer {
+    text-align: center;
+    padding-top: 3em;
+    color:#777;
+    font: .71em "Trebuchet MS", sans-serif;
+    clear: both;
+  }
+
+
+
+
+
+
+/* horizontal menu for wider screens */
+
+@media (min-width: 40em) {
+
+  /*  boxes */
+
+.group {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden;
+}
+
+.group section {
+  float: left;
+  width: 40%;
+  padding-bottom: 16em;
+  margin: 0 5% -16em 5%;
+}
+
+
+
+
+
+#intro{
+  margin-left: 9em;
+  margin-right: 40em;
+  margin-top: 3em;
+}
+
+header {
+  font-size: 2em;
+}
+
+nav li {
+  margin-right: .5em;
+  font-size: 6em;
+}
+
+nav {
+  margin-right: -2em;
+}
+
+
+
+figure.squash-and-stretch {
+  margin-bottom: -5em;
+}
+
+figure.staging {
+  margin-top: 2.5em;
+  margin-bottom: -9em;
+
+
+}
+
+figure.anticipation {
+  margin-top: 2.5em;
+margin-bottom: -5em;
+}
+
+
+figure.follow-through{
+  margin-top: -10em;
+  margin-bottom: -5em;
+}
+
+figure.slow-in-out{
+  margin-top: -12em;
+  margin-bottom: -5em;
+}
+
+figure.arc{
+  margin-top: -6em;
+  margin-bottom: -6em;
+
+}
+
+figure.sectondary-action{
+  margin-top: -2em;
+  margin-bottom: -5em;
+
+}
+
+figure.straight-ahead{
+  margin-top:0em;
+  margin-bottom: -5em;
+
+}
+
+figure.timing{
+  margin-top: -1em;
+  margin-bottom: -4em;
+}
+
+figure.exaggeration{
+  margin-top: -6em;
+  margin-bottom: 1em;
+}
+
+figure.solid-drawing{
+  margin-top: -3.5em;
+  margin-bottom: -10em;
+}
+figure.appeal{
+  margin-top: -10em;
+  margin-bottom: -8em;
+}
+
+
+#jump-link-top {
+
+margin-top: 5em;
+text-align: center;
+
+  }
+
+}
